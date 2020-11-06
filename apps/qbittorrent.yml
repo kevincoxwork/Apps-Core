@@ -18,7 +18,7 @@
         extport: '8083'
         intport2: '7889'
         extport2: '7889'
-        image: 'linuxserver/qbittorrent'
+        image: 'linuxserver/qbittorrent:14.2.5.99202004250119-7015-2c65b79ubuntu18.04.1-ls93'
 
     # CORE (MANDATORY) #############################################################
     - name: 'Including cron job'
