@@ -44,6 +44,8 @@
         name: '{{pgrole}}'
         image: '{{image}}'
         pull: yes
+        ports:
+          - "4040:4040"
         published_ports:
           - '{{ports.stdout}}4040:80'
         volumes: '{{pg_volumes}}'
