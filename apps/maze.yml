@@ -8,7 +8,7 @@
       set_fact:
         pgrole: 'maze'
         intport: '80'
-        extport: '3323'
+        extport: '5482'
         image: 'linuxserver/nginx'
 
     # CORE (MANDATORY) ############################################################
